@@ -40,7 +40,7 @@ The event target to listen for the event on.
 
 Type: `string`
 
-The event type to listen for
+The event type to listen for.
 
 #### listener
 
