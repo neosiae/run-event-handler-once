@@ -1,4 +1,4 @@
-# run-event-handler-
+# run-event-handler-once
 
 [![Build Status](https://travis-ci.com/neosiae/run-event-handler-once.svg?branch=master)](https://travis-ci.com/neosiae/run-event-handler-once)
 
