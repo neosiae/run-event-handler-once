@@ -1,0 +1,29 @@
+{
+  "name": "run-event-handler-once",
+  "version": "1.0.0",
+  "description": "Run an event handler only once",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neosiae/run-event-handler-once.git"
+  },
+  "keywords": [
+    "once",
+    "event",
+    "handler"
+  ],
+  "author": "Denis Kotlica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neosiae/run-event-handler-once/issues"
+  },
+  "homepage": "https://github.com/neosiae/run-event-handler-once#readme",
+  "devDependencies": {
+    "jsdom": "^11.11.0",
+    "sinon": "^6.0.1",
+    "tape": "^4.9.1"
+  }
+}
