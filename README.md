@@ -32,6 +32,8 @@ runEventHandlerOnce(button, 'click', function() {
 
 #### target
 
+Type: `EventTarget`
+
 The DOM element to listen for the event on.
 
 #### type 
