@@ -52,7 +52,7 @@ An event handler that is called when a specific event type occurs.
 
 Type: `object`
 
-An options object. It has two keys: __`add`__ - an options object that will be passed to `addEventListener` and __`remove`__ an options object that will be passed to `removeEventListener`.
+An options object. It has two keys: __`add`__ an options object that will be passed to `addEventListener` and __`remove`__ an options object that will be passed to `removeEventListener`.
 
 ## License
 
