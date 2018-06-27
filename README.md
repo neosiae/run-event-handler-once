@@ -48,7 +48,7 @@ Type: `function`
 
 An event handler that is called when a specific event type occurs.
 
-### options (Optional)
+#### options (Optional)
 
 Type: `object`
 
