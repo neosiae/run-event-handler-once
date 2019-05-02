@@ -1,6 +1,6 @@
 {
   "name": "run-event-handler-once",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run an event handler only once",
   "main": "index.js",
   "scripts": {
