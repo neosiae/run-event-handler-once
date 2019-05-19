@@ -1,6 +1,6 @@
 # run-event-handler-once
 
-[![Build Status](https://travis-ci.com/neosiae/run-event-handler-once.svg?branch=master)](https://travis-ci.com/neosiae/run-event-handler-once)
+![npm](https://img.shields.io/npm/v/run-event-handler-once.svg?style=flat-square)
 
 Attach an event handler to the specified element and ensure that the event handler is executed only once.
 
@@ -17,13 +17,13 @@ Or via yarn:
 ## Usage
 
 ```javascript
-const runEventHandlerOnce = require('run-event-handler-once');
+const runEventHandlerOnce = require('run-event-handler-once')
 
-const button = document.querySelector('button');
+const button = document.querySelector('button')
 
 runEventHandlerOnce(button, 'click', function() {
-  console.log('Hello!');
-});
+  console.log('Hello!')
+})
 ```
 
 ## API
@@ -34,33 +34,29 @@ runEventHandlerOnce(button, 'click', function() {
 
 Type: `EventTarget`
 
-The event target to listen for the event on.
+Register an event handler to a desired target.
 
-#### type 
+#### type
 
 Type: `string`
 
-The event type to listen for.
+The event type.
 
 #### listener
 
 Type: `function`
 
-An event handler that is called when a specific event type occurs.
+An event handler which receives a notification when an event of the specified type occurs.
 
 #### options (Optional)
 
 Type: `object`
 
-An options object. It has two keys: __`add`__ an options object that will be passed to `addEventListener` and __`remove`__ an options object that will be passed to `removeEventListener`.
+An options object that specifies characteristics about the event listener. The available options are:
+
+- **`add`** - An options object that will be passed to `addEventListener`
+- **`remove`** - An options object that will be passed to `removeEventListener`
 
 ## License
 
 MIT
-
-
-
-
-
-
-
