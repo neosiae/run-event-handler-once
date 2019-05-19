@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/run-event-handler-once.svg?style=flat-square)
 
-Attach an event handler to the specified element and ensure that the event handler is executed only once.
+Register an event handler to a desired target and ensure that the event handler is executed only once.
 
 ## Installation
 
