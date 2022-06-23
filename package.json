@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/neosiae/run-event-handler-once#readme",
   "devDependencies": {
-    "jsdom": "^11.12.0",
+    "jsdom": "^16.5.0",
     "sinon": "^6.3.5",
     "tape": "^4.13.2"
   }
